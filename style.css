@@ -1,0 +1,39 @@
+.contacto {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto input,
+.contacto textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contacto textarea {
+    min-height: 120px;
+}
+
+.contacto button {
+    background: #00ffae;
+    color: #000;
+    padding: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contacto button:hover {
+    background: #00d699;
+}
